@@ -1,0 +1,136 @@
+#H,
+#C,
+#N,
+#O,
+#P,
+#S,
+#Se {
+    background-color: coral;
+}
+
+#Li,
+#Na,
+#K,
+#Rb,
+#Cs,
+#Fr {
+    background-color: rgba(123, 43, 197, 0.384);
+}
+
+#He,
+#Ne,
+#Ar,
+#Kr,
+#Xe,
+#Rn {
+    background-color: cadetblue;
+}
+
+#F,
+#Cl,
+#Br,
+#I,
+#At {
+    background-color: darksalmon;
+}
+
+#Al,
+#Ga,
+#In,
+#Tl,
+#Sn,
+#Pb,
+#Bi {
+    background-color: green;
+}
+
+#B,
+#Si,
+#Ge,
+#As,
+#Sb,
+#Te,
+#Po {
+    background-color: brown;
+}
+
+#Be,
+#Mg,
+#Ca,
+#Sr,
+#Ba,
+#Ra {
+    background-color: lightblue;
+}
+
+#Sc,
+#Ti,
+#V,
+#Cr,
+#Mn,
+#Fe,
+#Co,
+#Ni,
+#Cu,
+#Zn,
+#Y,
+#Zr,
+#Nb,
+#Mo,
+#Tc,
+#Ru,
+#Rh,
+#Pd,
+#Ag,
+#Cd,
+#Hf,
+#Ta,
+#W,
+#Re,
+#Os,
+#Ir,
+#Pt,
+#Au,
+#Hg,
+#Rf,
+#Db,
+#Sg,
+#Bh,
+#Hs,
+#Mt,
+#Ds,
+#Rg,
+#Cn {
+    background-color: #FFD800;
+}
+
+#Nh,
+#Fl,
+#Mc,
+#Lv,
+#Ts,
+#Og {
+    background-color: #C4C3C1;
+}
+
+#last01,
+#last02 {
+    background-color: #C4C3C1;
+}
+
+.empty {
+    background-color: antiquewhite;
+}
+
+.redColor {
+    color: red;
+}
+
+thead th {
+    background-color: yellow;
+    font-size: 40px;
+}
+
+body {
+    background-color: antiquewhite;
+}
