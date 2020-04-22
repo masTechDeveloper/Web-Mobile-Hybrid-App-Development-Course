@@ -1,0 +1,97 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap'); */
+
+* {
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.bg-blue {
+  background-color: #316dc3;
+}
+
+.top-head {
+  font-size: 1rem;
+}
+
+.top-btn {
+  font-size: small;
+}
+
+/* Menu Design */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: blue; */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #333333;
+  font-size: small;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #316dc3;
+  color: white;
+  text-decoration: none;
+}
+
+/* Old Design code  
+
+
+li {
+  font-size: small;
+  font-weight: bold;
+  display: inline;
+  margin: 10px auto;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: blue;
+  border-radius: 50px;
+}
+li:hover {
+  background-color: #316dc3;
+  color: white;
+  cursor: pointer;
+}
+.nav-menu {
+  text-align: right;
+  margin-right: 60px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  background-color: #316dc3;
+  color: white;
+  text-decoration: none;
+}
+*/
+.active {
+  /* background-color: #316dc3; */
+  /* color: white; */
+  /* border-radius: 20px; */
+}
+
+.font-sm {
+  font-size: small;
+}
