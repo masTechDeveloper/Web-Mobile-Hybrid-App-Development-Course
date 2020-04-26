@@ -87,9 +87,9 @@ a:hover {
 }
 */
 .active {
-  /* background-color: #316dc3; */
-  /* color: white; */
-  /* border-radius: 20px; */
+  background-color: #316dc3;
+  color: white;
+  border-radius: 20px;
 }
 
 .font-sm {
