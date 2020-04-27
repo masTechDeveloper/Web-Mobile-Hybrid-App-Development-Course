@@ -1,0 +1,49 @@
+/* Change Brand Font */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Change Navigation color  */
+
+.navbar #myMenu .custom-nav .nav-item a {
+    color: #ffffff; 
+
+}
+
+/* Change Hover color  */
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+    color: #f0aab1; 
+    
+}
+
+
+/* Header Image Class */
+
+.back-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    border-radius: 0px;
+    margin-top: 74px;
+
+}
+
+
+/* Our Team Border Manage */
+
+#br {
+    border-radius: 0px;
+}
+
+a {
+    color: #DC3545
+}
+
+a:hover {
+    color: #E994A2
+}
