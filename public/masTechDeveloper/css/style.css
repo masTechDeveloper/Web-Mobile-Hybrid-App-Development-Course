@@ -1,49 +1,63 @@
 /* Change Brand Font */
 
 .navbar-brand {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2em;
-    font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 /* Change Navigation color  */
 
 .navbar #myMenu .custom-nav .nav-item a {
-    color: #ffffff; 
-
+  color: #ffffff;
 }
 
 /* Change Hover color  */
 
 .navbar #myMenu .custom-nav .nav-item a:hover {
-    color: #f0aab1; 
-    
+  color: #f0aab1;
 }
-
 
 /* Header Image Class */
 
 .back-image {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    min-height: 70vh;
-    border-radius: 0px;
-    margin-top: 74px;
-
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  border-radius: 0px;
+  margin-top: 74px;
 }
-
 
 /* Our Team Border Manage */
 
 #br {
-    border-radius: 0px;
+  border-radius: 0px;
 }
 
 a {
-    color: #DC3545
+  color: #dc3545;
 }
 
 a:hover {
-    color: #E994A2
+  color: #e994a2;
+}
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  border: none;
+  outline: none;
+
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 55px;
+}
+
+#topBtn:hover {
+  background-color: #555;
 }

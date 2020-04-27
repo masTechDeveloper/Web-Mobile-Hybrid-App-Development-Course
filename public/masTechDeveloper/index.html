@@ -20,10 +20,13 @@
     <!-- Custom CSS-->
     <link rel="stylesheet" href="css/style.css">
 
+
+
     <title>masTech Developers</title>
 </head>
 
 <body>
+   
 
     <!--Naviation Bar-->
     <nav class="navbar navbar-expand-sm navbar-dark pl-5 bg-danger pl-8 fixed-top">
@@ -63,7 +66,7 @@
     <!-- Start Services -->
 
     <div class="container text-center border-bottom" id="Services">
-        <h2>Our Services</h2>
+        <h2 class="text-danger font-weight-bold">Our Services</h2>
         <div class="row mt-4">
             <div class="col-sm-4 mb-4">
                 <a href="#"><i class="fab fa-android fa-10x text-success"></i></a>
@@ -73,7 +76,7 @@
                 <a href="#"><i class="fas fa-desktop fa-10x text-primary"></i></a>
                 <h4 class="mt-4">Web Application</h4>
             </div>
-            <div class="col-sm-4 mb-4">
+            <div class="col-sm-4 msb-4">
                 <a href="#"><i class="fas fa-database fa-10x text-info"></i></a>
                 <h4 class="mt-4 mb-4">Database</h4>
             </div>
@@ -83,7 +86,7 @@
 
     <!-- Start Courses Section -->
     <div class="container pt-5" id="Courses">
-        <h2 class="text-center">Our Courses</h2>
+        <h2 class="text-center text-danger font-weight-bold">Our Courses</h2>
         <div class="row mt-4">
             <!--Row 1 Start -->
             <div class="col-lg-6">
@@ -131,7 +134,7 @@
 
     <div class="jumbotron bg-danger" id="br">
         <div class="container">
-            <h2 class="text-center text-white">Our Team</h2>
+            <h2 class="text-center text-white font-weight-bold">Our Team</h2>
             <div class="row mt-4">
                 <div class="col-lg-3 col-sm-6">
                     <div class="card shadow-lg mb-2">
@@ -246,6 +249,28 @@
 
     </footer>
 
+    <button onclick="topFunction()" id="topBtn" title="Go to top" class="bg-danger"><i class="fa fa-chevron-up"></i></button>
+
+    <script>
+        var mybutton = document.getElementById('topBtn');
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = 'block';
+  } else {
+    mybutton.style.display = 'none';
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+    </script>
 
 
     <!-- jQuery Poper.js -->
